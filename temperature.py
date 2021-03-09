@@ -1,3 +1,3 @@
-fahrenheit=float(input("Enter the temperature in farenheit:"))
-celsius=(fahrenheit-32)/1.8
-print("Temperature in Celsius is:",celsius)
+c=float(input("Enter the temperature in Degree Celsius: "))
+f=(c*(9/5)+32)
+print("Temperature in Farenheit is: ",f)
